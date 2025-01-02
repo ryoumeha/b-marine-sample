@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>釣船屋 - B-Marine</title>
+    <link rel="stylesheet" href="sample.css">
+    <script src="sample.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/samplelogo.png" alt="B-Marine">
+            </div>
+            <div class="contact-info">
+                ☎︎03-1234-5678
+            </div>
+            <button class="menu-toggle" aria-label="メニューを開閉">☰</button>
+        </div>
+        <nav class="nav-menu">
+            <button class="menu-close" aria-label="メニューを閉じる">✖</button>
+            <ul>
+                <li><a href="#"><img src="images/logo/home.svg" alt="ホームアイコン" class="nav-icon">ホーム</a></li>
+                <li><a href="#booking"><img src="images/logo/calendar.svg" alt="予約アイコン" class="nav-icon">予約</a></li>
+                <li><a href="#about"><img src="images/logo/coin.svg" alt="coinアイコン" class="nav-icon">サンプル丸について</a></li>
+                <li><a href="#access"><img src="images/logo/map.svg" alt="アクセスアイコン" class="nav-icon">アクセス</a></li>
+                <li><a href="#"><img src="images/logo/mail.svg" alt="お問い合わせアイコン" class="nav-icon">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="hero" class="hero">
+            <h1>釣りの魅力を存分に楽しむ</h1>
+            <p>最高の釣り体験を提供する釣船屋です</p>
+            <a href="booking.html?client_id=1" class="btn-primary">ご予約はこちら</a>
+        </section>
+
+        <section id="services" class="services">
+            <h2>各種案内</h2>
+            <div class="service-items">
+                <a href="#" class="service-item">
+                    <img src="images/service1.svg" alt="サービス1">
+                    <h3>出船プラン</h3>
+                    <p>乗合船から仕立て船まで、出船している釣りプランの案内です。</p>
+                </a>
+                <a href="#" class="service-item">
+                    <img src="images/service2.svg" alt="サービス2">
+                    <h3>公式ブログ</h3>
+                    <p>毎日の釣果とお知らせを記載しています。要チェック！！</p>
+                </a>
+                <a href="#" class="service-item">
+                    <img src="images/service3.svg" alt="サービス3">
+                    <h3>アクセスと乗船方法</h3>
+                    <p>釣船に乗るまでの乗船方法を記載しています。</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="recommended-plans" class="recommended-plans">
+            <h2>おすすめの出船プラン</h2>
+        
+            <div class="plan-item">
+                <img src="images/plan1.png" alt="LTアジ船" class="plan-image">
+                <div class="plan-details">
+                    <h3>LTアジ船</h3>
+                    <p>初心者からベテランまで楽しめる、アジ釣りの決定版プランです。</p>
+                    <a href="booking.html?client_id=1&productId=1" class="btn-primary plan-btn">予約はこちら</a>
+                </div>
+            </div>
+        
+            <div class="plan-item">
+                <img src="images/plan2.png" alt="ルアー船" class="plan-image">
+                <div class="plan-details">
+                    <h3>ルアー船</h3>
+                    <p>ルアーフィッシングを楽しみたい方向けのプランです。</p>
+                    <a href="booking.html?client_id=1&productId=2" class="btn-primary plan-btn">予約はこちら</a>
+                </div>
+            </div>
+        </section>        
+
+        <section id="about" class="about">
+            <h2>サンプル丸について</h2>
+            <div class="image-container">
+                <img src="images/image1.svg" alt="イメージ1">
+                <img src="images/image2.svg" alt="イメージ2">
+            </div>
+            <p>私たちは長年にわたり、釣りを愛するすべての方に最高の体験を提供してきました。あなたの次の釣り旅をお手伝いさせてください。</p>
+        </section>
+
+        <section id="youtube" class="youtube">
+            <h2>YouTube動画でチェック</h2>
+            <p>当店での乗船方法から実際の釣り方まで！意外なテクニックも含めて動画でチェックしましょう！</p>
+            <div class="youtube-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="access" class="access">
+            <h2>アクセス</h2>
+            <p>私たちの釣船屋までのアクセスはこちらからご確認ください。</p>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.9826173899583!2d139.74543231549785!3d35.65858038020024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf72e6da8a1%3A0x2c99e1f8cfa7af0b!2z44CSMTA1LTAwNTIg5p2x5Lqs6YO95riv5Yy65riL5aSn6YGT77yR5LiB55uu77yZ77yV!5e0!3m2!1sja!2sjp!4v1597691492271!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="access-item">
+                <h3>住所</h3>
+                <p id="address">東京都中央区銀座1丁目2番3号</p>
+                <button onclick="copyToClipboard('address')">コピー</button>
+            </div>
+
+            <div class="access-item">
+                <h3>お車でお越しの場合</h3>
+                <p>首都高速都心環状線「銀座出口」より約5分。専用駐車場をご利用ください。</p>
+            </div>
+
+            <div class="access-item">
+                <h3>電車でお越しの場合</h3>
+                <p>JR山手線「有楽町駅」より徒歩10分、東京メトロ「銀座駅」より徒歩5分。</p>
+            </div>
+        </section>
+
+        <!-- カレンダーの埋め込み -->
+        <section id="calendar-section" class="calendar-section">
+            <h2>カレンダー</h2>
+            <iframe src="calendar.html" width="100%" height="800" frameborder="0"></iframe>
+        </section>
+
+        <section id="booking" class="booking">
+            <h2>ご予約はこちらから</h2><p>出船プランと日程を選び乗船情報を入力して予約ができます！</p>
+            <iframe src="booking.html?client_id=1" width="100%" height="800" frameborder="0"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Astragalus. All rights reserved.</p>
+    </footer>
+</body>
+</html>
